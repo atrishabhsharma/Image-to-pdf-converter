@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-file = "F:\id.jpg"
+file = "F:\id.jpg" ##add the file extension and the location of it
 im = Image.open(file)
 if im.mode =="RGBA":
     im= im.convert("RGB")
